@@ -1,0 +1,97 @@
+body {
+  text-align:center;
+  color: #000f08;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+  margin: 0;
+  border:0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-style: 700;
+  font-size: 2.5em;
+}
+
+h3  {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+
+.subtitulo, h4, h5 {
+  font-weight: 400;
+}
+
+.oscuro {
+  background: #000f08;
+  color:#ffffff;
+}
+
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet-brown{
+  text-align:left;
+  background: #a4452c;
+  color:#ffffff;
+  padding: 50px;
+  white-space: nowrap;
+}
+
+.hero-section{
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:#ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 50px 50px 100px 50px;
+}
+
+section, footer {
+margin-top: 75px
+}
+
+footer{
+  padding: 50px;
+}
+
+.charla-text, .evento {
+  display: inline-block;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charla-text{
+  width: 70%;
+  vertical-align: middle;
+  margin-left: 5%;
+  white-space: normal;
+}
